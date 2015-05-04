@@ -1,6 +1,9 @@
 <?php
 namespace Home\Common;
 use  Home\Common\Facepp;
+/***
+ * 一个用于facepp操作的一个类
+ */
 class Face {
 	static $group_name="wyu";
 	public static function detectFaceByData($faceData){
@@ -34,10 +37,11 @@ class Face {
 	}
 	public static function addFaceToPerson($faceId,$personId){
 		$facepp = new Facepp();//新建一个facepp对象
-		$response = $facepp->execute('/person/add_face',array("person_name"=>$personId,"face_id"=>$faceId));
+		$request=array( "person_name"=> $personId , "face_id"=>$faceId);
+		$response = $facepp->execute('/person/add_face',$request);
 		if($response['http_code'] == 200) {
+
 			$data = json_decode($response['body'], 1);
-			
 			if($data['added']>0)
 			{
 				return ADD_OK;

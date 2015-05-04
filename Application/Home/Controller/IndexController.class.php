@@ -52,8 +52,13 @@ class IndexController extends Controller {
     					break;
     				$cansRes[$i++]=array('personid'=>$v['person_name'],"confidence"=>$v['confidence']);
     			}
+    			//Face::addFaceToPerson($face_id, $candidates[0]['person_name']);
+    			$res=array(
+    				"candidate"=>$cansRes,
+    				"face_id"=>$face_id
+    			);
     			$this->ajaxReturn(
-    					ReturnMsg::builder( OK , $cansRes)
+    					ReturnMsg::builder( OK , $res)
     			);
     		}
     		else

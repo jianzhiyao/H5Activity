@@ -1,7 +1,9 @@
 <?php
 
 namespace Home\Common;
-
+/*
+ * 一个用于构建返回信息结构的一个类
+ */
 class ReturnMsg{
 	public $msg="提示信息";//
 	public $status=0;//状态码
