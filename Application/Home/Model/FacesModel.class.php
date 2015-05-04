@@ -5,9 +5,7 @@ use Think\Model;
 class FacesModel  extends Model{
 	public function addFace($personId,$faceId){
 		$data=array("personid"=>$personId,"faceid"=>$faceId);
-		
-		$res=M("person")->data($data)->add();
-		
+		$res=D("faces")->data($data)->add();
 		if($res) return 1;
 		else return 0;
 	}

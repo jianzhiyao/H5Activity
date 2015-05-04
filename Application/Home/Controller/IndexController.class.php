@@ -2,9 +2,12 @@
 namespace Home\Controller;
 use Think\Controller;
 use Home\Common\Face;
+use Home\Common\ReturnMsg;
+
+
 class IndexController extends Controller {
     public function index(){
-//     	$this->assign("scanUrl",U('Index/recordScan'));
+//      	$this->assign("scanUrl",U('Index/recordScan'));
     	$this->assign("scanUrl",U('Index/signupScan'));
     	$this->display("h5cam");
     }
@@ -17,39 +20,57 @@ class IndexController extends Controller {
     	if(count($face))//检测到了
     	{
     		if(Face::addFaceToPerson($face['face_id'], $personId)==ADD_OK)
-    			echo "成功添加脸部数据！";
+    		{
+    				D("faces")->addFace($personId,$face['face_id']);
+    				$this->ajaxReturn(
+    						ReturnMsg::builder(ADD_OK)
+    				);
+    		}
     		else
-    			echo "添加失败，请再次录入数据";
+    				$this->ajaxReturn(
+    						ReturnMsg::builder(ADD_NO)
+    				);	
     	}
     	else
     	{
-    		echo "检测不到脸部数据";
+    			$this->ajaxReturn(
+    					ReturnMsg::builder(WITHOUT_FACE_DATA)
+    			);	
     	}
     }
-    public function signupScan(){
+    public function signupScan(){//签到扫描
     		$data=Face::searchPersonByData($_POST['img']);
     		if(count($data)>1)
     		{
     			$candidates=$data['candidate'];
     			$face_id=$data['face_id'];
-    			echo count($candidates)."人与你相似，分别是\n";
+    			$cansRes=array();
+    			$i=0;
     			foreach($candidates as $k => $v)
     			{
-    				echo $v['person_name'].",相似度为：".$v['confidence']."\n";
+    				if(i>=10)
+    					break;
+    				$cansRes[$i++]=array('personid'=>$v['person_name'],"confidence"=>$v['confidence']);
     			}
-				Face::addFaceToPerson($face_id, $candidates[0]['person_name']);
+    			$this->ajaxReturn(
+    					ReturnMsg::builder( OK , $cansRes)
+    			);
     		}
     		else
     		{
-    			if($data==WITHOUT_CANDIDATE)
-    				echo "没有人与你相似";
-    			else if($data==WITHOUT_FACE_DATA)
-    				echo "扫描不到脸部信息";
-    				
+    				$this->ajaxReturn(
+    						ReturnMsg::builder($data)
+    				);	
     		}
     		
     }
-    public function singup(){
-    	
+    public function singup(){//签到记录接受
+    	//签到要有主办人的id
+    	$activityId=$_POST['act_id'];
+    	$personId=$_POST['per_id'];
+    	if(D("faces")->addFace($activityId,$personId))
+    		$this->ajaxReturn((ReturnMsg::builder(OK)));
+    	else
+    		$this->ajaxReturn((ReturnMsg::builder(NO)));
     }
 }

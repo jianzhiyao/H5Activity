@@ -6,7 +6,7 @@ use Think\Model;
 
 class SignupModel extends Model {
 	public function signup($activityId,$faceId){
-		
+		return $this->data(array("activityid"=>$activityId,"faceid"=>$faceId))->add();
 	}
 	
 }

@@ -3854,3 +3854,607 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 
+[ 2015-05-04T16:35:24+08:00 ] 127.0.0.1 /activity/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:35:34+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:35:37+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-04T16:35:44+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-04T16:35:47+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:35:51+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:39:50+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:39:53+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T16:39:56+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-04T16:39:57+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T17:10:30+08:00 ] 127.0.0.1 /activity/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-04T17:11:16+08:00 ] 127.0.0.1 /activity/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T17:11:32+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:12:45+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `act_person` [ RunTime:0.0140s ]
+SQL: INSERT INTO `act_person` () VALUES () [ RunTime:0.0910s ]
+
+[ 2015-05-04T17:13:17+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `act_person` [ RunTime:0.0110s ]
+SQL: INSERT INTO `act_person` () VALUES () [ RunTime:0.0000s ]
+
+[ 2015-05-04T17:13:57+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:14:15+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:14:50+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:15:33+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-04T17:16:35+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:16:56+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-04T17:17:18+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T17:17:31+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:18:03+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:18:09+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `act_person` [ RunTime:0.0120s ]
+SQL: INSERT INTO `act_person` () VALUES () [ RunTime:0.0010s ]
+
+[ 2015-05-04T17:18:10+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `act_person` [ RunTime:0.0110s ]
+SQL: INSERT INTO `act_person` () VALUES () [ RunTime:0.0010s ]
+
+[ 2015-05-04T17:19:12+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `act_person` [ RunTime:0.0100s ]
+SQL: INSERT INTO `act_person` () VALUES () [ RunTime:0.0000s ]
+
+[ 2015-05-04T17:21:19+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:21:23+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0100s ]
+SQL: INSERT INTO `act_faces` (`personid`,`faceid`) VALUES ('2147483647','f0a7b64edea50fd1c7ef7c7243ad7b22') [ RunTime:0.0250s ]
+
+[ 2015-05-04T17:23:11+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:14+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:17+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:21+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:24+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:26+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:23:29+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0110s ]
+SQL: INSERT INTO `act_faces` (`personid`,`faceid`) VALUES ('2147483647','853b64c78310039931bb9b5c5664840b') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `act_faces` WHERE ( faceid='853b64c78310039931bb9b5c5664840b' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-04T17:24:05+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0110s ]
+SQL: INSERT INTO `act_faces` (`personid`,`faceid`) VALUES ('2147483647','52bfeafe148f29ea723e7bd2a5879410') [ RunTime:0.0010s ]
+
+[ 2015-05-04T17:24:45+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+
+[ 2015-05-04T17:24:51+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/recordScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `act_faces` [ RunTime:0.0110s ]
+SQL: INSERT INTO `act_faces` (`personid`,`faceid`) VALUES ('2147483647','2b0bd91f4656249c1ec5f9cf142aa906') [ RunTime:0.0010s ]
+
+[ 2015-05-04T17:28:38+08:00 ] 127.0.0.1 /activity/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-04T17:28:43+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+
+[ 2015-05-04T17:30:31+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+
+[ 2015-05-04T17:30:37+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+
+[ 2015-05-04T17:31:09+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:30+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:36+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:39+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:42+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:45+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:31:48+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+
+[ 2015-05-04T17:31:50+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+
+[ 2015-05-04T17:32:43+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:32:47+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 79 行.
+
+[ 2015-05-04T17:32:51+08:00 ] 127.0.0.1 /activity/index.php/Home/Index/signupScan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpStudy\WWW\activity\Application\Home\Common\Face.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' E:\phpStudy\WWW\activity\Application\Home\Controller\IndexController.class.php 第 51 行.
+

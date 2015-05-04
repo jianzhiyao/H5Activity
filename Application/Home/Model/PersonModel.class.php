@@ -9,9 +9,9 @@ class PersonModel extends Model {
 		if(count($res)==0)
 		{
 			$data=array("no"=>$no,"password"=>md5($password),"name"=>$name);
-			$res=M("person")->data($data)->add();
+			$res=$this->data($data)->add();
 			if($res)
-					return 1;
+					return $res;
 			else
 					return 0;
 		}
