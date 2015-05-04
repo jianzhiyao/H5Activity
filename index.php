@@ -19,7 +19,11 @@ define('APP_DEBUG',True);
 
 // 定义应用目录
 define('APP_PATH','./Application/');
-
+define('WITHOUT_FACE_DATA',0);
+define('WITHOUT_CANDIDATE',1);
+define('NETWORK_ERROR',2);
+define('ADD_OK',3);
+define('ADD_NO',5);
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
