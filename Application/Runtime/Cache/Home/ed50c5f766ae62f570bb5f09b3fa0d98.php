@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js">
+<?php if (!defined('THINK_PATH')) exit();?><script src="Public\js\jquery-1.9.1.min.js">
 </script>
 <!--<body ondragstart="window.event.returnValue=false;" oncontextmenu="window.event.returnValue=false;" onselectstart="event.returnValue=false;">
 -->
@@ -10,7 +10,7 @@
 	</button>
 	<canvas id="canvas" style="display:;" width="320" height="240"></canvas>
 </div>
-<button id="snap" onclick="$('#snap').get(0).click()">
+<button id="snap" onclick="">
 	snap
 </button>
 <button id="update" onclick="PostCode()">
@@ -20,13 +20,6 @@
 </div>
 </body>
 <script>
-	var m = 
-	[
-	  0.33, 0.34, 0.33, 0, 0,
-	  0.33, 0.34, 0.33, 0, 0,
-	  0.33, 0.34, 0.33, 0, 0,
-	     0,    0,    0, 1, 0,
-	];
 	//判断浏览器是否支持HTML5 Canvas 
 	var canvas;
 	var context;
@@ -77,7 +70,7 @@
 			
 			var imgdata=context.getImageData(0,0,canvas.width,canvas.height);
 	        var data=imgdata.data;
-			var delta=-50;
+			var delta=-65;
 		  	 for(var i=0,n=data.length;i<n;i+=4){
 		                //var average=(data[i]+data[i+1]+data[i+2])/3;0.393
 						var average=0.393*data[i]+ 0.769*data[i+1] + 0.189*data[i+2] + 0;
@@ -88,7 +81,9 @@
 						//lightness
 						data[i] += delta;     // red
 						data[i + 1] += delta; // green
-						data[i + 2] += delta; // blue 
+						data[i + 2] += delta; // blue
+						
+							
 		    }
 			context.putImageData(imgdata,0,0);
 			

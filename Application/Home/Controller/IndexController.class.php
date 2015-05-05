@@ -9,7 +9,7 @@ class IndexController extends Controller {
     public function index(){
 //      	$this->assign("scanUrl",U('Index/recordScan'));
     	$this->assign("scanUrl",U('Index/signupScan'));
-    	$this->display("h5cam");
+    	$this->display("index");
     }
     public function recordScan(){
     	//测试数据

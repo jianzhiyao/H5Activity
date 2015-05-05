@@ -24,8 +24,7 @@ class ReturnMsg{
 		
 	}
 	public static function builder($status=0,$body=array(),$msg=""){
-		$res=new ReturnMsg($status,$body,$msg);
-		return $res;
+		return new ReturnMsg($status,$body,$msg);
 	}
 }
 

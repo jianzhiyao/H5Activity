@@ -104,8 +104,8 @@ class Face {
 function saveImgReturnRealPath($imgData){
 	$img = convert_data($imgData);
 	$fileName = substr(md5(date().rand(0, 5000)),0,6).".png";//通过时间和随机数获得六位的文件名，防止太多的时候冲突
-	save_to_file( $img ,  "Public\\".$fileName );
-	return realpath("Public\\".$fileName);
+	save_to_file( $img ,  "Public\\facesCache\\".$fileName );
+	return realpath("Public\\facesCache\\".$fileName);
 }
 function convert_data($data){
 	return base64_decode(str_replace('data:image/png;base64',',',$data));
