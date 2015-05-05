@@ -28,7 +28,11 @@
 		function() {
 			face.postCanvasData("canvas", "{$scanUrl}",
 			function(data) {
-				var jsonObj;
+				var jsonObj=JSON.parse(data);
+				var status=jsonObj.status;
+				var msg=jsonObj.msg;
+				var Obj=jsonObj.body;
+				
 			},
 			function() {
 				alert("请求失败！")
