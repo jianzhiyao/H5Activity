@@ -11,19 +11,21 @@ class ReturnMsg{
 	public function __construct($status=0,$body=array(),$msg=""){
 		$this->msg=$msg;
 		$this->status=$status;
-		$this->body=$body;
 		switch ($this->status)
 		{
 			case ADD_OK:                                       $this->msg="添加成功";break;
-			case WITHOUT_FACE_DATA:                 $this->msg="找不到人脸数据";break;
+			case WITHOUT_FACE_DATA:                 $this->msg="检测不到脸部数据";break;
 			case WITHOUT_CANDIDATE:                $this->msg="找不到匹配的人";break;
 			case ADD_NO:                                      $this->msg="添加失败";break;
-			case "":;break;
-			case "":;break;
+			case OK:												 $this->msg="成功";break;
+			case NO:												 $this->msg="请求不成功";break;
 		}
+		$this->body=$body;
+		
 	}
 	public static function builder($status=0,$body=array(),$msg=""){
-		return new ReturnMsg($msg,$body,$status);
+		$res=new ReturnMsg($status,$body,$msg);
+		return $res;
 	}
 }
 
