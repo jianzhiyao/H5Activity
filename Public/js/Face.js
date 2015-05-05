@@ -4,6 +4,7 @@ function Face() {
 	obj = null;
 	video = null;
 	canvas = null;
+	$lightness=-65;
 	function playVideo($videoId) {
 		video = document.getElementById($videoId),
 		videoObj = {
@@ -36,7 +37,7 @@ function Face() {
 		context.drawImage(video, 0, 0, canvas.width, canvas.height);
 		var imgdata = context.getImageData(0, 0, canvas.width, canvas.height);
 		var data = imgdata.data;
-		var delta = -60;
+		var delta = $lightness;
 		for (var i = 0,
 		n = data.length; i < n; i += 4) {
 			//var average=(data[i]+data[i+1]+data[i+2])/3;0.393
@@ -67,9 +68,14 @@ function Face() {
 		},
 		"text");
 	}
-
+	function setLightness(lightness)
+	{
+		$lightness=lightness;
+	}
 	return {
 		playVideo: playVideo,
+		setCanvas:setDataFromVideoToCanvas,
+		setLightness:setLightness,
 		postCanvasData: postCanvasData
 	};
 }
