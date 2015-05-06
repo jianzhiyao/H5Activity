@@ -1,12 +1,11 @@
 <?php
 
 namespace Home\Model;
-require_once 'Facepp.class.php';
 use Think\Model;
 
 class SignupModel extends Model {
-	public function signup($activityId,$faceId){
-		return $this->data(array("activityid"=>$activityId,"faceid"=>$faceId))->add();
+	public function signup($activityId,$personId){
+		return $this->data(array("activityid"=>$activityId,"personid"=>$personId))->add();
 	}
 	
 }

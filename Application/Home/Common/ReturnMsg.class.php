@@ -11,6 +11,7 @@ class ReturnMsg{
 	public function __construct($status=0,$body=array(),$msg=""){
 		$this->msg=$msg;
 		$this->status=$status;
+		if($msg=="")
 		switch ($this->status)
 		{
 			case ADD_OK:                                       $this->msg="添加成功";break;

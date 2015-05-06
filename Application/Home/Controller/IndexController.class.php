@@ -9,6 +9,8 @@ class IndexController extends Controller {
     public function index(){
 //      	$this->assign("scanUrl",U('Index/recordScan'));
     	$this->assign("scanUrl",U('Index/signupScan'));
+    	$this->assign("singupUrl",U('Index/singup'));//activity_id
+    	$this->assign("activity_id",1);
     	$this->display("index");
     }
     public function recordScan(){
@@ -71,11 +73,32 @@ class IndexController extends Controller {
     }
     public function singup(){//签到记录接受
     	//签到要有主办人的id
-    	$activityId=$_POST['act_id'];
-    	$personId=$_POST['per_id'];
-    	if(D("faces")->addFace($activityId,$personId))
-    		$this->ajaxReturn((ReturnMsg::builder(OK)));
+    	$activityId=$_POST['activity_id'];
+    	$faceId=$_POST['face_id'];
+    	$personId=$_POST['person_id'];
+    	if(D("faces")->addFace($personId,$faceId))
+    	{
+    		$res=D('signup')->where("activityid='%s' and personid='%s'",array($activityId,$personId))->select();
+    		if(count($res))
+    		{
+    			$this->ajaxReturn((ReturnMsg::builder(OK,array(),"你已经签到了!")));
+    		}
+    		
+    		$status=Face::addFaceToPerson($faceId, $personId);
+    		if($status== ADD_OK)
+    		{
+    			D('signup')->signup($activityId,$personId);
+    			$this->ajaxReturn((ReturnMsg::builder(OK,array(),"签到过程完成!")));
+    		}
+    		else
+    		{
+    			$this->ajaxReturn((ReturnMsg::builder(NO,array(),"人脸数据已经存在(ol)")));
+    		}
+    		
+    	}
     	else
-    		$this->ajaxReturn((ReturnMsg::builder(NO)));
+    	{
+    		$this->ajaxReturn((ReturnMsg::builder(NO,array(),"人脸数据已经存在(lc)")));
+    	}
     }
 }
