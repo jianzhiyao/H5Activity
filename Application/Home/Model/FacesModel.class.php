@@ -4,8 +4,7 @@ namespace Home\Model;
 use Think\Model;
 class FacesModel  extends Model{
 	public function addFace($personId,$faceId){
-		
-		$res=$this->where(" faceid='%s' ",array($personId,$faceId))->select();
+		$res=$this->where(" faceid='%s' ",array($faceId))->select();
 		if(count($res)) return 0;
 		
 		$data=array("personid"=>$personId,"faceid"=>$faceId);

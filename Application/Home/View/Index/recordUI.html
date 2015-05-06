@@ -69,10 +69,7 @@
 		var $lightness = -65;
 		face = new Face();
 		face.playVideo("video");
-		button = document.getElementById("click");
-
 		$("#click").on("click", getDataAndPost);
-
 		$('#h-slider').slider({
 			range: true,
 			range: "min",
@@ -94,7 +91,7 @@
 
 		function getDataAndPost() {
 			var itv = waitingTips("请等待");
-			face.postCanvasData("canvas", "{$scanUrl}",
+			face.postCanvasData("canvas", "{$recordUrl}",
 			function(data) {
 				clearInterval(itv);
 				var jsonObj = JSON.parse(data);
@@ -103,12 +100,7 @@
 				var Obj = jsonObj.body;
 				if (Math.floor(status / 100) == 1) //成功
 				{
-					tips("与你相似的人有" + Obj.candidate.length + "个");
-					tipsAppend("<br>请选择你的号码:");
-					for (x in Obj.candidate) {
-						tipsAppend('<br><input type="button"  value="' + Obj.candidate[x].personid + '" class="btn" onclick="signup(this.value,\''+Obj.face_id+'\')">');
-					}
-
+					tips('<font color="green">' + msg + '</font>');
 				} else //失败
 				{
 					tips('<font color="red">' + msg + '</font>');
@@ -137,31 +129,6 @@
 			},
 			300);
 			return itv;
-		}
-		function signup(person_id, face_id) {
-			$.post("{$singupUrl}", {
-				"person_id": person_id,
-				"face_id": face_id,
-				"activity_id": "{$activity_id}"
-			},
-			function(data, status) {
-				if (status == "success") {
-					var jsonObj=JSON.parse(data);
-					if(Math.ceil(jsonObj.status/100)==1)
-					{
-						//成功
-						tips(jsonObj.msg);
-					}
-					else
-					{
-						//失败
-						tips(jsonObj.msg);
-					}
-				} else {
-					
-				}
-			},
-			"text");
 		}
 	</script>
 
