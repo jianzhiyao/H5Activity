@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -10,11 +10,11 @@
 		<meta name="author" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Le styles -->
-		<link href="/activity/Public/jquery-ui-bootstrap/assets/css/bootstrap.min.css"
+		<link href="__PUBLIC__/jquery-ui-bootstrap/assets/css/bootstrap.min.css"
 		rel="stylesheet">
-		<link type="text/css" href="/activity/Public/jquery-ui-bootstrap/css/custom-theme/jquery-ui-1.10.0.custom.css"
+		<link type="text/css" href="__PUBLIC__/jquery-ui-bootstrap/css/custom-theme/jquery-ui-1.10.0.custom.css"
 		rel="stylesheet" />
-		<link type="text/css" href="/activity/Public/jquery-ui-bootstrap/assets/css/font-awesome.min.css"
+		<link type="text/css" href="__PUBLIC__/jquery-ui-bootstrap/assets/css/font-awesome.min.css"
 		rel="stylesheet" />
 		<!--[if IE 7]>
 			<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
@@ -23,8 +23,8 @@
 			<link rel="stylesheet" type="text/css" href="css/custom-theme/jquery.ui.1.10.0.ie.css"
 			/>
 		<![endif]-->
-		<link href="/activity/Public/jquery-ui-bootstrap/assets/css/docs.css" rel="stylesheet">
-		<link href="/activity/Public/jquery-ui-bootstrap/assets/js/google-code-prettify/prettify.css"
+		<link href="__PUBLIC__/jquery-ui-bootstrap/assets/css/docs.css" rel="stylesheet">
+		<link href="__PUBLIC__/jquery-ui-bootstrap/assets/js/google-code-prettify/prettify.css"
 		rel="stylesheet">
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -33,7 +33,7 @@
 		<![endif]-->
 		<title>
 		</title>
-		<script src="/activity/Public\js\jquery-1.9.1.min.js">
+		<script src="__PUBLIC__\js\jquery-1.9.1.min.js">
 		</script>
 		<!-- Le styles -->
 		<style type="text/css">
@@ -50,35 +50,30 @@
 	</head>
 	<body>
 		<div class="container">
-			<form class="form-signin" action="<?php echo ($loginUrl); ?>" method="post">
+			<form class="form-signin" action="{$registUrl}" method="post">
 				<h2 class="form-signin-heading">
-					欢迎登录
+					欢迎注册
 				</h2>
 				<input type="text" class="input-block-level" name="username" required placeholder="学号或者工号">
-				<input type="password" class="input-block-level" name="password" required placeholder="密　码">
-				<label class="checkbox">
-					<input type="checkbox" value="remember-me">
-					记住密码
-				</label>
+				<input type="text" class="input-block-level" name="name" placeholder="姓名">
+				<input type="password" class="input-block-level" name="password1" required placeholder="密　码">
+				<input type="password" class="input-block-level" name="password2" required placeholder="再次输入密码">
 				<button class="btn btn-large btn-primary " type="submit">
-					登录
-				</button>
-				<a class="btn btn-large btn-info" href="<?php echo ($registuiUrl); ?>">
 					注册
-				</a>
+				</button>
 			</form>
 		</div>
 		<!-- /container -->
-		<script src="/activity/Public/jquery-ui-bootstrap/assets/js/jquery-1.9.0.min.js"
+		<script src="__PUBLIC__/jquery-ui-bootstrap/assets/js/jquery-1.9.0.min.js"
 		type="text/javascript">
 		</script>
-		<script src="/activity/Public/jquery-ui-bootstrap/assets/js/bootstrap.min.js"
+		<script src="__PUBLIC__/jquery-ui-bootstrap/assets/js/bootstrap.min.js"
 		type="text/javascript">
 		</script>
-		<script src="/activity/Public/jquery-ui-bootstrap/assets/js/jquery-ui-1.10.0.custom.min.js"
+		<script src="__PUBLIC__/jquery-ui-bootstrap/assets/js/jquery-ui-1.10.0.custom.min.js"
 		type="text/javascript">
 		</script>
-		<script src="/activity/Public/jquery-ui-bootstrap/assets/js/google-code-prettify/prettify.js"
+		<script src="__PUBLIC__/jquery-ui-bootstrap/assets/js/google-code-prettify/prettify.js"
 		type="text/javascript">
 		</script>
 	</body>

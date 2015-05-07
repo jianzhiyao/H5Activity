@@ -59,7 +59,7 @@ class Face {
 	}
 	public static function createPerson($personid){
 		$facepp = new Facepp();//新建一个facepp对象
-		$response = $facepp->execute('/person/create',array("person_name"=>$personid,"group_name"=>Face::$group_name));
+		$response = $facepp->execute('/person/create',array("person_name"=>substr($personid,0),"group_name"=>Face::$group_name));
 		if($response['http_code'] == 200) {
 			return $response;
 		}

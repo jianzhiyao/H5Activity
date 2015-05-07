@@ -50,22 +50,17 @@
 	</head>
 	<body>
 		<div class="container">
-			<form class="form-signin" action="<?php echo ($loginUrl); ?>" method="post">
+			<form class="form-signin" action="<?php echo ($registUrl); ?>" method="post">
 				<h2 class="form-signin-heading">
-					欢迎登录
+					欢迎注册
 				</h2>
 				<input type="text" class="input-block-level" name="username" required placeholder="学号或者工号">
-				<input type="password" class="input-block-level" name="password" required placeholder="密　码">
-				<label class="checkbox">
-					<input type="checkbox" value="remember-me">
-					记住密码
-				</label>
+				<input type="text" class="input-block-level" name="name" placeholder="姓名">
+				<input type="password" class="input-block-level" name="password1" required placeholder="密　码">
+				<input type="password" class="input-block-level" name="password2" required placeholder="再次输入密码">
 				<button class="btn btn-large btn-primary " type="submit">
-					登录
-				</button>
-				<a class="btn btn-large btn-info" href="<?php echo ($registuiUrl); ?>">
 					注册
-				</a>
+				</button>
 			</form>
 		</div>
 		<!-- /container -->

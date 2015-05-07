@@ -3,25 +3,84 @@ namespace Home\Controller;
 use Think\Controller;
 use Home\Common\Face;
 use Home\Common\ReturnMsg;
+use Home\Model;
 
 
 class IndexController extends Controller {
     public function index(){
-    	
+    	$this->assign("loginUrl",U("Index/login"));
+    	$this->assign("registuiUrl",U("Index/registui"));
+    	$this->display("index");
+    }
+    public function login(){
+    	$_POST['username'];
+    	$_POST['password'];
+    	if($personId=D("person")->login($_POST['username'],$_POST['password']))
+    	{
+    		session_start();
+    		$_SESSION['personId']=$personId;
+    		$this->success("登录成功",U("Home/Index/admin"));
+    	}
+    	else
+    		$this->error("登录失败");
+    }
+    public function logout(){
+    	session_start();
+    	foreach($_SESSION as $k=>$v)
+    	{
+    		unset($_SESSION[$k]);
+    	}
+    	$this->success("安全退出",U("Home/Index/index"));
+    }
+    public function regist(){
+    	if($_POST['password1']!=$_POST['password2'])
+    		$this->error("两次密码不一致");
+    	$no=$_POST['username'];
+    	$name=$_POST['name'];
+    	$password=$_POST['password1'];
+    	$personId=D("person")->regist($no,$password,$name);
+    	if($personId>0)
+    	{
+    		session_start();
+    		if(Face::createPerson($personId))
+    		{
+	    		$_SESSION['personId']=$personId;
+	    		$this->success("注册成功", U("Home/Index/admin"));
+    		}
+    		else
+    		{
+    			$this->success("注册不成功，请稍后再试", U("Home/Index/admin"));
+    		}
+    	}
+    	else
+    	{
+    		$this->error("学号或者工号已经存在");
+    	}
+    }
+    public function registUI(){
+    	$this->assign("registUrl",U("Index/regist"));
+    	$this->display("registui");
+    }
+    public function admin(){
+//     	Face::createPerson("1");
     }
     public function recordUI(){
     	$this->assign("recordUrl",U('Index/recordScan'));
     	$this->display("recordUI");
     }
     public function signupUI(){
+    	isset($_REQUEST['activityid'])
+    	or
+    	$this->ajaxReturn(
+    			ReturnMsg::builder(NO,array(),"参数缺失")
+    	);
     	$this->assign("scanUrl",U('Index/signupScan'));
     	$this->assign("singupUrl",U('Index/singup'));//activity_id
-    	$this->assign("activity_id",1);
+    	$this->assign("activity_id",$_REQUEST['activityid']);
     	$this->display("signupUI");
     }
     public function recordScan(){
     	session_start();
-    	
     	isset($_SESSION['personId']) 
     	or 
     	$this->ajaxReturn(
@@ -86,7 +145,11 @@ class IndexController extends Controller {
     }
     public function singup(){//签到记录接受
     	session_start();
-    	isset($_SESSION['personId']) or die("没有权限");
+    	isset($_SESSION['personId']) 
+    	or 
+    	$this->ajaxReturn(
+    			ReturnMsg::builder(NO,array(),"你没有权限")
+    	);
     	$founderId=$_SESSION['personId'];
     	
     	//签到要有主办人的id
